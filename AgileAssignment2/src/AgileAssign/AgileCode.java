@@ -2,12 +2,19 @@ package AgileAssign;
 
 public class AgileCode {
 		
-	public int method1(int number) {
+	public float method1(float number) { 
+		float square = number * number; 
 
-		int square = number * number;
-		return square;
+		return square; 
+		} // end method1 
+	
+	public boolean method2(char letter, float number) { 
+		if ((letter == 'A') && (number == 12.0)) 
 
-	} // end method1
+		return false; 
+
+		return true; 
+		} // end method2 
 
 }// end Demo1
 
