@@ -15,6 +15,13 @@ public class AgileCode {
 
 		return true; 
 		} // end method2 
+	
+	public char method3() {
+		
+		return 'Z';
+	
+	} // end method3
+
 
 }// end Demo1
 
