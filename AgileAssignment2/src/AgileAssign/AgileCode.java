@@ -1,10 +1,13 @@
 package AgileAssign;
 
 public class AgileCode {
+		
+	public int method1(int number) {
 
-	public static void main(String[] args) {
-		System.out.print("Hello World!!");
+		int square = number * number;
+		return square;
 
-	}
+	} // end method1
 
-}
+}// end Demo1
+
